@@ -6,7 +6,7 @@ from typing import Any
 import pandas as pd
 from openai import OpenAI
 
-from wwg.models import (
+from wwg.models import (SCHEMA_VERSION_INPUT,
     SCHEMA_VERSION_NORMALIZED, SCHEMA_VERSION_LOCKED, CONVENTION_ID,
     INPUT_SHEETS, EXCLUDED_SHEETS, DOCUMENTATION_SHEETS, BRANCHES,
     PARENTS, CANONICAL_ELEMENTS, PROMPT1B_REQUIRED_TOP_LEVEL_KEYS,
